@@ -1,1 +1,32 @@
-
+Use Case 1: Customer Account Creation
+Primary Actor: Customer
+Stakeholders and Interests:
+      Customer: Wants to sign up for an account to use the ticketing system
+      Vendor: Wants to make sales
+      COFC: Wants a system to produce revenue
+Preconditions: Customer has interest in attending an event
+Success Guarantee: Customer successfully creates an account with a unique username and password.
+Main Success Scenario: Customer successfully creates account and has access to the application.
+Extensions: Customer's requested username or password does not meet requirements.
+Special Requirements: System must be able to handle simultaneous account creations and over 100,000 user accounts.
+Technology and Data Variations: System's MVP will only allow users to utilize a website.
+Open Issues:
+       User loses internet connection.
+       User's username and password becomes leaked.
+       Bad actor uses another user's login credentials and obtains access.
+Use Case 2: Event Search
+Primary Actor: Customer
+Stakeholders and Interests:
+      Vendor wants Customer to be able to easily find the desired event's respective tickets.
+      Customer wants to easily search for events.
+Preconditions: Customer has an account and to be logged in.
+Success Guarantee: Customer will be able to view information on the event that they searched
+Main Success Scenario: Customer searches and finds desired event.
+Extensions:
+      Event was searched for but not found.
+      Event was not found but a similar event was recommended.
+Special Requirements: System must be able to handle over 1000 events.
+Technology and Data Variations list: User must have a functioning web browser for events to populate and auto-update and       mainly to search for respective event(s).
+Open Issues:
+       Too many search requests crash system.
+       Valid searches do not yield the proper event(s) requested.
