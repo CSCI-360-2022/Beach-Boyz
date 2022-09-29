@@ -1,7 +1,7 @@
-##Event  
+## Event  
 The event object will contain attributes: name, date, and EventID.   
 
-##Account  
+## Account  
 The Account object will contain attributes: username, password, ticketId(s)
 
 ##
