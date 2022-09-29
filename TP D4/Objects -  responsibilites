@@ -1,7 +1,11 @@
-## Event  
+Event  
 The event object will contain attributes: name, date, and EventID.   
+Using Search() within the interface, Users will be able to find desired events by using any of the above 3 attributes.
+After finding an event, The purchase() method will be used to complete the transaction.
 
-## Account  
-The Account object will contain attributes: username, password, ticketId(s)
+Account  
+The Account object will contain attributes: username, password, ticketId(s).
+The Login() function within the interface will allow the user to input their username and password in order to authenticate themselves and access the rest of the system.
 
-##
+Ticket
+The ticket object will contain quantity, ticketID, and eventID.
