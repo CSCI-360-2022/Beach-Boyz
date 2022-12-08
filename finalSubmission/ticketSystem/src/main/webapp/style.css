@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import  "tabulator-tables";
+@import  "~/tabulator-tables/dist/css/tabulator.min.css";
+
+
+body{
+	background-color: #DCDCDC;
+}
+
+
+#mainDiv{
+	font-family:verdana;
+	
+	
+}
+
+
+
+.popup{
+	width:700px;
+	height:500px;
+	background:#0080c0;
+	display:none;
+	border-radius:6px;
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	padding: 0 30px 30px;
+	color: #333;
+}
+
+
+.open-popup{
+	
+	
+	visibility:visible;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+
+
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideform {
+    display: none;
+}
+
+
+td {
+	border: 1px #DDD solid; padding: 5px; cursor: pointer;
+}
+
+.selected {
+    background-color: brown;
+    color: #FFF;
+}
+div.container1{
+	font-family:verdana;
+	position:absolute;
+	top:10%;
+	left:50%;
+	margin-right:-50%;
+	transform: translate(-50%,50%)
+}
+
+
+
+
+
+
